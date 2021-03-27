@@ -44,15 +44,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<ul>
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-telegram"></i></a></li>
 						</ul>
 					</div>
 					<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
 						<a href="tel:+953 012 3654 896"><span class="lnr lnr-phone-handset"></span> <span
-								class="text">+953 012 3654 896</span></a>
+								class="text">(+6221) 390 6501</span></a>
 						<a href="mailto:support@colorlib.com"><span class="lnr lnr-envelope"></span> <span
-								class="text">support@colorlib.com</span></a>
+								class="text">office@unusia.ac.id</span></a>
 					</div>
 				</div>
 			</div>
@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="theme/img/logo2.png" alt="" title="" /></a>
+					<a href="index.html"><img src="theme/img/logo3.png" alt="" title="" /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -95,14 +95,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</header><!-- #header -->
 
-	<!-- start banner Area -->
+	<!-- start banner Area  overlay-bg-->
 	<section class="banner-area relative" id="home">
-		<div class="overlay overlay-bg"></div>
+		<div class="overlay"></div>
 		<div class="container">
 			<div class="row fullscreen d-flex align-items-center justify-content-between">
 				<div class="banner-content col-lg-9 col-md-12">
 					<h3 class="text-uppercase">
-						Halo,
+						Pendaftaran
 					</h3>
 					<h1 class="text-uppercase">
 						Mahasiswa Baru
@@ -113,6 +113,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<a href="#" class="primary-btn text-uppercase">Get Started</a>
 				</div>
 			</div>
+			
 		</div>
 	</section>
 	<!-- End banner Area -->
@@ -452,7 +453,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="active-upcoming-event-carusel">
 					<div class="single-carusel row align-items-center">
 						<div class="col-12 col-md-6 thumb">
-							<img class="img-fluid" src="img/e1.jpg" alt="">
+							<img class="img-fluid" src="theme/img/e1.jpg" alt="">
 						</div>
 						<div class="detials col-12 col-md-6">
 							<p>25th February, 2018</p>
@@ -468,7 +469,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 					<div class="single-carusel row align-items-center">
 						<div class="col-12 col-md-6 thumb">
-							<img class="img-fluid" src="img/e2.jpg" alt="">
+							<img class="img-fluid" src="theme/img/e2.jpg" alt="">
 						</div>
 						<div class="detials col-12 col-md-6">
 							<p>25th February, 2018</p>
@@ -484,7 +485,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 					<div class="single-carusel row align-items-center">
 						<div class="col-12 col-md-6 thumb">
-							<img class="img-fluid" src="img/e1.jpg" alt="">
+							<img class="img-fluid" src="theme/img/e1.jpg" alt="">
 						</div>
 						<div class="detials col-12 col-md-6">
 							<p>25th February, 2018</p>
@@ -500,7 +501,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 					<div class="single-carusel row align-items-center">
 						<div class="col-12 col-md-6 thumb">
-							<img class="img-fluid" src="img/e1.jpg" alt="">
+							<img class="img-fluid" src="theme/img/e1.jpg" alt="">
 						</div>
 						<div class="detials col-12 col-md-6">
 							<p>25th February, 2018</p>
@@ -516,7 +517,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 					<div class="single-carusel row align-items-center">
 						<div class="col-12 col-md-6 thumb">
-							<img class="img-fluid" src="img/e2.jpg" alt="">
+							<img class="img-fluid" src="theme/img/e2.jpg" alt="">
 						</div>
 						<div class="detials col-12 col-md-6">
 							<p>25th February, 2018</p>
@@ -532,7 +533,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 					<div class="single-carusel row align-items-center">
 						<div class="col-12 col-md-6 thumb">
-							<img class="img-fluid" src="img/e1.jpg" alt="">
+							<img class="img-fluid" src="theme/img/e1.jpg" alt="">
 						</div>
 						<div class="detials col-12 col-md-6">
 							<p>25th February, 2018</p>
