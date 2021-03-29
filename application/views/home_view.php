@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/play.png">
+	<link rel="shortcut icon" href="theme/img/play.png">
 	<!-- Author Meta -->
 	<meta name="author" content="Unusia">
 	<!-- Meta Description -->
@@ -45,13 +45,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-telegram"></i></a></li>
+							<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
 						</ul>
 					</div>
 					<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-						<a href="tel:+953 012 3654 896"><span class="lnr lnr-phone-handset"></span> <span
+						<a href="tel:+62213906501"><span class="lnr lnr-phone-handset"></span> <span
 								class="text">(+6221) 390 6501</span></a>
-						<a href="mailto:support@colorlib.com"><span class="lnr lnr-envelope"></span> <span
+						<a href="mailto:office@unusia.ac.id"><span class="lnr lnr-envelope"></span> <span
 								class="text">office@unusia.ac.id</span></a>
 					</div>
 				</div>
@@ -186,7 +186,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="thumb-wrap relative">
 							<div class="thumb relative">
 								<div class="overlay overlay-bg"></div>
-								<img class="img-fluid" src="img/p1.jpg" alt="">
+								<img class="img-fluid" src="theme/img/p1.jpg" alt="">
 							</div>
 							<div class="meta d-flex justify-content-between">
 								<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -209,7 +209,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="thumb-wrap relative">
 							<div class="thumb relative">
 								<div class="overlay overlay-bg"></div>
-								<img class="img-fluid" src="img/p2.jpg" alt="">
+								<img class="img-fluid" src="theme/img/p2.jpg" alt="">
 							</div>
 							<div class="meta d-flex justify-content-between">
 								<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -232,7 +232,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="thumb-wrap relative">
 							<div class="thumb relative">
 								<div class="overlay overlay-bg"></div>
-								<img class="img-fluid" src="img/p3.jpg" alt="">
+								<img class="img-fluid" src="theme/img/p3.jpg" alt="">
 							</div>
 							<div class="meta d-flex justify-content-between">
 								<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -255,7 +255,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="thumb-wrap relative">
 							<div class="thumb relative">
 								<div class="overlay overlay-bg"></div>
-								<img class="img-fluid" src="img/p4.jpg" alt="">
+								<img class="img-fluid" src="theme/img/p4.jpg" alt="">
 							</div>
 							<div class="meta d-flex justify-content-between">
 								<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -278,7 +278,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="thumb-wrap relative">
 							<div class="thumb relative">
 								<div class="overlay overlay-bg"></div>
-								<img class="img-fluid" src="img/p1.jpg" alt="">
+								<img class="img-fluid" src="theme/img/p1.jpg" alt="">
 							</div>
 							<div class="meta d-flex justify-content-between">
 								<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -301,7 +301,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="thumb-wrap relative">
 							<div class="thumb relative">
 								<div class="overlay overlay-bg"></div>
-								<img class="img-fluid" src="img/p2.jpg" alt="">
+								<img class="img-fluid" src="theme/img/p2.jpg" alt="">
 							</div>
 							<div class="meta d-flex justify-content-between">
 								<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -324,7 +324,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="thumb-wrap relative">
 							<div class="thumb relative">
 								<div class="overlay overlay-bg"></div>
-								<img class="img-fluid" src="img/p3.jpg" alt="">
+								<img class="img-fluid" src="theme/img/p3.jpg" alt="">
 							</div>
 							<div class="meta d-flex justify-content-between">
 								<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -347,7 +347,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="thumb-wrap relative">
 							<div class="thumb relative">
 								<div class="overlay overlay-bg"></div>
-								<img class="img-fluid" src="img/p4.jpg" alt="">
+								<img class="img-fluid" src="theme/img/p4.jpg" alt="">
 							</div>
 							<div class="meta d-flex justify-content-between">
 								<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -674,7 +674,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</p>
 					</div>
 					<div class="single-review item">
-						<img src="img/r1.png" alt="">
+						<img src="theme/img/r1.png" alt="">
 						<div class="title justify-content-start d-flex">
 							<a href="#">
 								<h4>Fannie Rowe</h4>
@@ -751,7 +751,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="row">
 				<div class="col-lg-3 col-md-6 single-blog">
 					<div class="thumb">
-						<img class="img-fluid" src="img/b1.jpg" alt="">
+						<img class="img-fluid" src="theme/img/b1.jpg" alt="">
 					</div>
 					<p class="meta">25 April, 2018 | By <a href="#">Mark Wiens</a></p>
 					<a href="blog-single.html">
@@ -766,7 +766,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="col-lg-3 col-md-6 single-blog">
 					<div class="thumb">
-						<img class="img-fluid" src="img/b2.jpg" alt="">
+						<img class="img-fluid" src="theme/img/b2.jpg" alt="">
 					</div>
 					<p class="meta">25 April, 2018 | By <a href="#">Mark Wiens</a></p>
 					<a href="blog-single.html">
@@ -781,7 +781,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="col-lg-3 col-md-6 single-blog">
 					<div class="thumb">
-						<img class="img-fluid" src="img/b3.jpg" alt="">
+						<img class="img-fluid" src="theme/img/b3.jpg" alt="">
 					</div>
 					<p class="meta">25 April, 2018 | By <a href="#">Mark Wiens</a></p>
 					<a href="blog-single.html">
@@ -796,7 +796,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="col-lg-3 col-md-6 single-blog">
 					<div class="thumb">
-						<img class="img-fluid" src="img/b4.jpg" alt="">
+						<img class="img-fluid" src="theme/img/b4.jpg" alt="">
 					</div>
 					<p class="meta">25 April, 2018 | By <a href="#">Mark Wiens</a></p>
 					<a href="blog-single.html">
