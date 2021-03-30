@@ -8,31 +8,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="theme/img/play.png">
+	<link rel="shortcut icon" href="<?= base_url('theme/img/' . $icon); ?>">
 	<!-- Author Meta -->
 	<meta name="author" content="Unusia">
 	<!-- Meta Description -->
-	<meta name="description" content="">
+	<meta name="description" content="<?php echo $site_desc; ?>" />
 	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
+	<meta name="keywords" content="Unusia, UNUSIA, Unusia Jakarta, Unusia Bogor, UNU, Nahdlatul Ulama">
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Education</title>
+	<title><?= $site_title; ?></title>
+    <!-- SEO Tag -->
+    <link rel="canonical" href="<?php echo site_url(); ?>" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?php echo $site_title; ?>" />
+    <meta property="og:description" content="<?php echo $site_desc; ?>" />
+    <meta property="og:url" content="<?php echo site_url(); ?>" />
+    <meta property="og:site_name" content="<?php echo $site_name; ?>" />
+    <meta property="og:image" content="<?php echo base_url() . 'theme/img/' . $site_image ?>" />
+    <meta property="og:image:secure_url" content="<?php echo base_url() . 'theme/img/' . $site_image ?>" />
+    <meta property="og:image:width" content="560" />
+    <meta property="og:image:height" content="315" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="<?php echo $site_desc; ?>" />
+    <meta name="twitter:title" content="<?php echo $site_title; ?>" />
+    <meta name="twitter:site" content="<?php echo $site_twitter; ?>" />
+    <meta name="twitter:image" content="<?php echo base_url() . 'theme/img/' . $site_image ?>" />
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-	<!--
-        CSS
-        ============================================= -->
-	<link rel="stylesheet" href="theme/css/linearicons.css">
-	<link rel="stylesheet" href="theme/css/font-awesome.min.css">
-	<link rel="stylesheet" href="theme/css/bootstrap.css">
-	<link rel="stylesheet" href="theme/css/magnific-popup.css">
-	<link rel="stylesheet" href="theme/css/nice-select.css">
-	<link rel="stylesheet" href="theme/css/animate.min.css">
-	<link rel="stylesheet" href="theme/css/owl.carousel.css">
-	<link rel="stylesheet" href="theme/css/jquery-ui.css">
-	<link rel="stylesheet" href="theme/css/main.css">
+	<!--CSS ============================================= -->
+	<link rel="stylesheet" href="<?= base_url('theme/css/linearicons.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('theme/css/font-awesome.min.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('theme/css/bootstrap.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('theme/css/magnific-popup.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('theme/css/nice-select.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('theme/css/animate.min.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('theme/css/owl.carousel.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('theme/css/jquery-ui.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('theme/css/main.css'); ?>">
 </head>
 
 <body>
@@ -49,51 +64,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</ul>
 					</div>
 					<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-						<a href="tel:+62213906501"><span class="lnr lnr-phone-handset"></span> <span
-								class="text">(+6221) 390 6501</span></a>
+						<a href="tel:+62213906501"><span class="lnr lnr-phone-handset"></span> <span class="text">(+6221)
+								390 6501</span></a>
 						<a href="mailto:office@unusia.ac.id"><span class="lnr lnr-envelope"></span> <span
 								class="text">office@unusia.ac.id</span></a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container main-menu">
-			<div class="row align-items-center justify-content-between d-flex">
-				<div id="logo">
-					<a href="index.html"><img src="theme/img/logo3.png" alt="" title="" /></a>
-				</div>
-				<nav id="nav-menu-container">
-					<ul class="nav-menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="courses.html">Courses</a></li>
-						<li><a href="events.html">Events</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li class="menu-has-children"><a href="">Blog</a>
-							<ul>
-								<li><a href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
-							</ul>
-						</li>
-						<li class="menu-has-children"><a href="">Pages</a>
-							<ul>
-								<li><a href="course-details.html">Course Details</a></li>
-								<li><a href="event-details.html">Event Details</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li class="menu-has-children"><a href="">Level 2 </a>
-									<ul>
-										<li><a href="#">Item One</a></li>
-										<li><a href="#">Item Two</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav><!-- #nav-menu-container -->
-			</div>
-		</div>
-	</header><!-- #header -->
+	<?php echo $header; ?>
+	</header>
+	<!-- #header -->
 
 	<!-- start banner Area  overlay-bg-->
 	<section class="banner-area relative" id="home">
@@ -674,7 +655,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</p>
 					</div>
 					<div class="single-review item">
-						<img src="theme/img/r1.png" alt="">
+						<img src="theme/img/p1.jpg" alt="">
 						<div class="title justify-content-start d-flex">
 							<a href="#">
 								<h4>Fannie Rowe</h4>
@@ -820,10 +801,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 cta-left">
-					<h1>Not Yet Satisfied with our Trend?</h1>
+					<h1>Mari bergabung bersama Unusia</h1>
 				</div>
 				<div class="col-lg-4 cta-right">
-					<a class="primary-btn wh" href="#">view our blog</a>
+					<a class="primary-btn wh" href="#">Join now</a>
 				</div>
 			</div>
 		</div>
@@ -904,38 +885,65 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<p class="footer-text m-0 col-lg-6 col-md-12">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					Copyright &copy; <a
-						href="https://unusia.ac.id" target="_blank">Unusia</a> 
+						href="https://unusia.ac.id" target="_blank">Universitas Nahdlatul Ulama Indonesia</a> 
                         <script>document.write(new Date().getFullYear());</script> 
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 				<div class="col-lg-6 col-sm-12 footer-social">
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-behance"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
 				</div>
 			</div>
 		</div>
 	</footer>
 	<!-- End footer Area -->
 
+	<!-- Modal Search-->
+    <div class="modal fade" id="ModalSearch" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="z-index: 10000;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="<?php echo site_url('search'); ?>" method="GET">
+                        <div class="input-group">
+                            <input type="text" name="search_query" class="form-control input-search" style="height: 40px;" placeholder="Search..." required>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit" style="height: 40px;background-color: #ccc;"><span class="fa fa-search"></span></button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<script src="theme/js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="<?= base_url('theme/js/vendor/jquery-2.2.4.min.js'); ?>"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 	</script>
-	<script src="theme/js/vendor/bootstrap.min.js"></script>
+	<script src="<?= base_url('theme/js/vendor/bootstrap.min.js'); ?>"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-	<script src="theme/js/easing.min.js"></script>
-	<script src="theme/js/hoverIntent.js"></script>
-	<script src="theme/js/superfish.min.js"></script>
-	<script src="theme/js/jquery.ajaxchimp.min.js"></script>
-	<script src="theme/js/jquery.magnific-popup.min.js"></script>
-	<script src="theme/js/jquery.tabs.min.js"></script>
-	<script src="theme/js/jquery.nice-select.min.js"></script>
-	<script src="theme/js/owl.carousel.min.js"></script>
-	<script src="theme/js/mail-script.js"></script>
-	<script src="theme/js/main.js"></script>
+	<script src="<?= base_url('theme/js/easing.min.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/hoverIntent.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/superfish.min.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/jquery.ajaxchimp.min.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/jquery.magnific-popup.min.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/jquery.tabs.min.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/jquery.nice-select.min.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/owl.carousel.min.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/mail-script.js'); ?>"></script>
+	<script src="<?= base_url('theme/js/main.js'); ?>"></script>
+	
+	<script type="text/javascript">
+		// Set cursor focus to search form{
+			$('.btn-search').on('click',function(){
+    	$('#ModalSearch').modal('show');
+    	$('#ModalSearch').on('shown.bs.modal', function () {
+		    $('.input-search').focus();
+		})  
+    });
+	</script>
 </body>
 
 </html>

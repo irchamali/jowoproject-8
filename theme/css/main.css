@@ -2678,7 +2678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .search-course-area {
-	background: url(../img/s-bg.jpg) center;
+	background: url(../img/s-bg1.jpg) center;
 	background-size: cover
 }
 
@@ -3032,7 +3032,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cta-two-area {
-	background: #f7631b;
+	/* background: #f7631b; */
+	background: #178c52;
 	padding: 90px 0px
 }
 

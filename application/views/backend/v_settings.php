@@ -296,7 +296,7 @@
                                         <div class="col-sm-10">
                                             <input type="file" name="logo_icon" class="form-control" id="input1">
                                             <p class="help-block">Favicon harus beresolusi 32 x 32 Pixels.</p>
-                                            <img src="<?php echo base_url() . 'theme/images/' . $site_favicon; ?>" class="thumbnail">
+                                            <img src="<?php echo base_url() . 'theme/img/' . $site_favicon; ?>" class="thumbnail">
                                         </div>
                                     </div>
 
@@ -305,7 +305,7 @@
                                         <div class="col-sm-10">
                                             <input type="file" name="logo_header" class="form-control" id="input1">
                                             <p class="help-block">Logo harus beresolusi 248 x 54 Pixels.</p>
-                                            <img src="<?php echo base_url() . 'theme/images/' . $site_logo_header; ?>" class="thumbnail">
+                                            <img src="<?php echo base_url() . 'theme/img/' . $site_logo_header; ?>" class="thumbnail">
                                         </div>
                                     </div>
 
@@ -314,7 +314,7 @@
                                         <div class="col-sm-10">
                                             <input type="file" name="logo_big" class="form-control" id="input1">
                                             <p class="help-block">Logo big harus beresolusi 560 x 315 Pixels.</p>
-                                            <img src="<?php echo base_url() . 'theme/images/' . $site_logo_big; ?>" width="560" class="thumbnail">
+                                            <img src="<?php echo base_url() . 'theme/img/' . $site_logo_big; ?>" width="560" class="thumbnail">
                                         </div>
                                     </div>
 
