@@ -2,10 +2,8 @@
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
 				<a href="<?php echo site_url(); ?>">
-								<img src="<?php echo base_url() . 'theme/img/' . $logo; ?>" width="147" height="30" alt="" />
-							</a>
-					<!-- <a href="<?= base_url(); ?>"><img src="<?php echo base_url() . 'theme/img/' . $logo; ?>" width="147"
-							height="30" alt=""></a> -->
+					<img src="<?php echo base_url() . 'theme/img/' . $logo; ?>" width="147" height="30" alt="" />
+				</a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
